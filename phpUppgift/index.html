@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscope</title>
+    <script defer src="./logic.js"></script>
+    
+</head>
+<body>
+    <form class="form">
+    <h1>Enter the date</h1>
+    <p>Date: </p><input type="date" id="date" name="Date" >  <br><br>
+    <button onclick="saveHoroscope()" id="addBtn">Save in session</button>  <br><br>
+    <button onclick="toUpdateHoroscope()" id="updateBtn">Update session</button>  <br><br>
+    <button onclick="toDeleteHoroscope()" id="delBtn">Delete from session</button> <br><br>
+    <h2>Your horoscop is:</h2>
+    
+    <div id="showHoroscope"></div>
+    <br>
+    </div>
+    </form>
+</body>
+</html>
