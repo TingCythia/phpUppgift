@@ -1,4 +1,6 @@
 # phpUppgift
+https://github.com/TingCythia/phpUppgift.git
+
 1. index.html
 Create a onClick function on logic.js
 
